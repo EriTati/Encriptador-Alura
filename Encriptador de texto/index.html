@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/encriptador.jpg" />
+    <title>Encriptador Alura</title>
+  </head>
+
+  <body>
+    <main>
+      
+      <section class="seccionTexto">
+        <img class="logoPrincipal" src="imagenes/logoAlura.png" alt="Logo Alura">
+        <textarea class="areaTexto" name="areaTexto" cols="25" rows="15" placeholder="&#128073 Ingrese el texto aquí &#129395"></textarea>
+        <p class="advertencia">&#9888; Sólo letras minúsculas y sin acentos</p>
+        <div class="seccionTextoBotones">
+          <input class="botonEncriptar"type="button" value="ENCRIPTAR">
+          <input class="botonDesencriptar"type="button" value="DESENCRIPTAR">
+        </div>
+      </section>
+      
+      <aside class="seccionEncriptado">
+        <textarea class="areaEncriptado" name="areaEncriptar" cols="35" rows="25"></textarea>
+        <img class="imgBuscando" id="imgBuscando" src="imagenes/chinese.jpg" alt="Esperando mensaje">
+        <p class="msgNoHayTexto" id="msgNoHayTexto"><strong>Ningún mensaje fue encontrado<br><br></strong>&#11088 Ingresa el texto que desees encriptar o desencriptar </p>
+        <div class="divBotonCopiar">
+          <input class="botonCopiar" type="button" value="&#9757; COPIAR">
+        </div>
+      </aside>
+      
+    </main>
+    <footer>
+
+        <p class="copyright"> &copy Copyright Encriptador Alura- 2023</p>
+
+    </footer>
+  </body>
+
+</html>
+
+<script src="script.js"></script>
